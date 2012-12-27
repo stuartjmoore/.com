@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <title>Intentionally Blank</title>
+        <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+        <meta name="description" content="">
+        <meta name="author" content="">
+                        
+        <link rel="shortcut icon" type="image/png" href="../../images/favicon.png">
+                            
+        <link href="../../css/bootstrap.css" rel="stylesheet">
+        <link href="../../css/style.css" rel="stylesheet">
+        <!--<link href="../../css/bootstrap-responsive.css" rel="stylesheet">-->
+                                    
+        <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+        <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+            
+        <script type="text/javascript">
+            var date = new Date();
+            var year = date.getFullYear();
+        </script>
+    </head>
+    
+    <body>
+        
+        <div class="container">
+            
+            <div class="row hero">
+                <div class="span12">
+                    <img src="../images/header.png">
+                        </div>
+            </div>
+            
+            <hr>
+            
+            <ul class="nav nav-pills">
+                <li><a href="../../">Projects</a></li>
+                <li><a href="../../personal">Personal</a></li>
+                <li class="active"><a href="../">Blog</a></li>
+            </ul>
+            
+            <hr>
+            
+            <div class="row">
+                <div class="span12">
+                    <h2>SMHeadedList</h2>
+                    <p></p>
+                    <p>I’ve been writing a game for a while now. I’m testing the game on an unreleased beta version of an OS that may or may not be under NDA for a little while longer. One of the built in apps that my game connects to got a bit of an interface lift for the new OS and I’ve been staring at it non-stop.</p>
+                    <p>The app has a few new features, but one list caught my eye. At first, the UI was kind of interesting, but the more I swiped up and down, the more I had to know how it was done. I had my ideas, but the only way to figure it out was code it myself.</p>
+                    <p>The list looks and acts like a simple table. The “title” element will scroll with the list and stay at the top, just like a UITableView.</p>
+                    <p>There is one key difference though, the scroll bar only appears below “title”. Sounds like a simple change, but it’s certainly not easy to do.</p>
+                    <p>And, just to keep up with the app that I’m mimicking, the “header” section either fully appears or is hidden (it scrolls away if it’s less than half shown). I could have added a few buttons to the “title” as well, but that’s easy.</p>
+                    <p><strong>Code</strong></p>
+                    <p>If you don’t need to read my explanation (you don’t, the code is shockingly simple), then you can get the <a href="https://github.com/stuartjmoore/SMHeadedList">full code</a> over at GitHub now.</p>
+                    <p>I figured that the view called for a UITableView inside a UITableView, but syncing those two up would be the problem to solve. So, I started there. Could I subclass the tables and call TouchesMoved between them? No, because UIScrollView traps those methods (and HitTest doesn’t update after the initial touch). I was left with using the delegate scroll view methods and key-value observers (KVO).</p>
+                    <p>You’ll notice that the items table (inside the second row of the header table) dips below the iPhone’s screen. Won’t the scroll bar dip below the screen, too (step one of a poorly designed app)? No, because the items table (the view controlling the scroll bar) doesn’t officially scroll until the header row is fully out of view. The items table’s size is the size of the iPhone screen minus the status bar minus the title’s height, so it will fill up the screen completely once you start scrolling.</p>
+                    <p>Once it’s all laid out, all that’s left is to sync up the tables. I’ll leave you to look at the code on GitHub (mostly because I want to clean it up still), but the idea is simple.</p>
+                    <p>First, scrolling by the user is disabled on the main header table and all HitTests on the first row are forwarded to the items table.</p>
+                    <p>Second, we observe (via KVO) all the scrolling done on the items table. If the user scrolls and the header row is still visible, we “lock” the items table by setting the offset to 0, 0 (unless it is already at zero, to avoid an infinite loop). Instead, we send the scroll value change on to the header table until it is out of view. A similar thing is done in reverse if the user is scrolling up to see the header again.</p>
+                    <p>Finally, we use the UIScrollViewDelegate’s end of scrolling methods to snap the header into or out of view if the user is scrolling in that direction and they pass a certain threshold (I choose 20 to match the status bar height).</p>
+                    <p>Of course, get the <a href="https://github.com/stuartjmoore/SMHeadedList">full code</a> over at GitHub.</p>
+                </div>
+            </div>
+            
+            <hr>
+            
+            <footer>
+                copyright © <script type="text/javascript">document.write(year);</script> Stuart J. Moore
+            </footer>
+        </div>
+        
+        <script type="text/javascript" src="../../js/jquery.js"></script>
+        <script type="text/javascript" src="../../js/bootstrap-transition.js"></script>
+        <script type="text/javascript" src="../../js/bootstrap-collapse.js"></script>
+        <script type="text/javascript" src="../../js/retina.js"></script>
+    </body>
+</html>

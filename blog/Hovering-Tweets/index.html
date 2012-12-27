@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <title>Intentionally Blank</title>
+        <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+        <meta name="description" content="">
+        <meta name="author" content="">
+                        
+        <link rel="shortcut icon" type="image/png" href="../../images/favicon.png">
+                            
+        <link href="../../css/bootstrap.css" rel="stylesheet">
+        <link href="../../css/style.css" rel="stylesheet">
+        <!--<link href="../../css/bootstrap-responsive.css" rel="stylesheet">-->
+                                    
+        <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+        <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+            
+        <script type="text/javascript">
+            var date = new Date();
+            var year = date.getFullYear();
+        </script>
+    </head>
+    
+    <body>
+        
+        <div class="container">
+            
+            <div class="row hero">
+                <div class="span12">
+                    <img src="../images/header.png">
+                        </div>
+            </div>
+            
+            <hr>
+            
+            <ul class="nav nav-pills">
+                <li><a href="../../">Projects</a></li>
+                <li><a href="../../personal">Personal</a></li>
+                <li class="active"><a href="../">Blog</a></li>
+            </ul>
+            
+            <hr>
+            
+            <div class="row">
+                <div class="span12">
+                    <h2>Hovering Tweets</h2>
+                    <p></p>
+                    <p>I've noticed on the new Twitter web app a curious hover/click behavior. When you load up the website, you get a list of tweets, like so:</p>
+                    <img src="1.png">
+                    <p>Then, when you move your cursor over one of the tweets, you see your pointer change to the hand (the universal symbol for clickable):</p>
+                    <img src="2.png">
+                    <p>The highlighted red area is the clickable area, or at least it seems to be the clickable area. It's assumed that buttons are one solid shape (most likely a rectangle). But in this instance, there are links contained inside of the entire tweet, creating the button with holes.</p>
+                    <img src="3.png">
+                    <p>This doesn't seem to be a problem, there is still plenty of area to click on the tweet after all. And it's unlikely you'll try and click the non-white space (à la the instragram link), but the white space changes upon hover. The “reply”, “retweet”, “favorite”, and “open” links don't appear until you're hovering over the tweet. So, as you're speeding your mouse cursor over the tweet to expand it, new links get in your way and cause and accidental and unpleasant click.</p>
+                    <p>The design is similar to the iPhone and Android apps. The tweet is so small, and your thumb so big, that the entire tweet needs to be a button allowing you to perform actions on it. But the tweet is only one button, there are no links inside of it. This design pattern is brought over to the web app, but as it's on the web, links are added (since there's a lot more room).</p>
+                    <p>I would leave the clickable areas at just:</p>
+                    <img src="4.png">
+                    <p>The entire tweet will still be a hoverable area to reveal the “reply”, etc. links.</p>
+                    <p>Minimizing the clickable area to expand the tweet sounds counterintuitive, but I think it would greatly ease the user experience. In this instance, the area isn't being modified as I'm moving my mouse.</p>
+                </div>
+            </div>
+            
+            <hr>
+            
+            <footer>
+                copyright © <script type="text/javascript">document.write(year);</script> Stuart J. Moore
+            </footer>
+        </div>
+        
+        <script type="text/javascript" src="../../js/jquery.js"></script>
+        <script type="text/javascript" src="../../js/bootstrap-transition.js"></script>
+        <script type="text/javascript" src="../../js/bootstrap-collapse.js"></script>
+        <script type="text/javascript" src="../../js/retina.js"></script>
+    </body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <title>Intentionally Blank</title>
+        <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+        <meta name="description" content="">
+        <meta name="author" content="">
+                        
+        <link rel="shortcut icon" type="image/png" href="../../images/favicon.png">
+                            
+        <link href="../../css/bootstrap.css" rel="stylesheet">
+        <link href="../../css/style.css" rel="stylesheet">
+        <!--<link href="../../css/bootstrap-responsive.css" rel="stylesheet">-->
+                                    
+        <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+        <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+            
+        <script type="text/javascript">
+            var date = new Date();
+            var year = date.getFullYear();
+        </script>
+    </head>
+    
+    <body>
+        
+        <div class="container">
+            
+            <div class="row hero">
+                <div class="span12">
+                    <img src="../images/header.png">
+                        </div>
+            </div>
+            
+            <hr>
+            
+            <ul class="nav nav-pills">
+                <li><a href="../../">Projects</a></li>
+                <li><a href="../../personal">Personal</a></li>
+                <li class="active"><a href="../">Blog</a></li>
+            </ul>
+            
+            <hr>
+            
+            <div class="row">
+                <div class="span12">
+                    <h2>Redesigning Quora - The TabBar</h2>
+                    <p></p>
+                    <p>When the Quora app for iPhone was released, there was much fan-fair. I’m not a huge Quora user, but this certainly caught my eye. I couldn’t help but take a look and was surprised by the UI. Not in a good way.</p>
+                    <p>As a start-up darling (at least at the time), I thought Quora would have a better design. The standard iPhone UI elements weren’t even the worst part. Just looking at the the screenshots alone confused me. “Home”? “Search and Add”? Add what? Notifications are a tab? None of it sat well with me.</p>
+                    <img src="1.png">
+                    <p>If there’s one thing wrong with the app, it’s that its designed with a web browser in mind. Web apps and native apps may be converging slowly, but they still have destinctive UI elements. A web app can’t look like an iPhone app, just as an iPhone app can't look like an Android app.</p>
+                    <p>“Home”? iPhone apps don’t have a home. There are main pages, but they are never titled “home”.</p>
+                    <p>Notifications are meant to seek you out, not you seek them out. Notifications are only new items for you to check out, they don't persist as an entire tab.</p>
+                    <p>Search is a great option, as is adding a question. But they really shouldn't be shoved into one tab. If I want to ask a question, where does my instinct lead me? “Search &amp; Add” definitely isn't my first choice. I don't want to search, I just want to ask a question (the system wants me to search so I don't add redundant questions). Search &amp; add is easy to get away with on a web app because you can have a persisant textbox with the placeholder text "Search for or ask a question". App space is more limited.</p>
+                    <p>Nearby seems pretty useless to me. When it comes down to it, it's just another way to search.</p>
+                    <p>Profile is fine, ignoring any minor graphical errors.</p>
+                    <p><strong>Changes</strong></p>
+                    <p>The tabBar is the most important part of the app. It's the top most level of your UI. It lays out the entire organization of your content, so getting it right is nessecary. Here's how I would fix their layout:</p>
+                    <img src="2.png">
+                    <p>The "Home" tab is fine in and of itself (I'll get to the list later), but it needs a new name. "Questions" works.</p>
+                    <p>Search needs to be its own tab. Even if Search allows you to add a question, the user sees that as a last resort, not as an initial interaction.</p>
+                    <p>Same goes for "Ask" (not add). When the user tries to ask a question that has been asked before, the app can still search and intercept them before they do. Just as with a lot of apps these days, the "Ask" tab is more of a button. It stands out and is centered, because it's an action that behoves both the user and the app.</p>
+                    <p>"Notifications" is renamed to "Activity" because activity is persistant, notifications are not. I really wanted to hide the activity under the "Profile" tab, but this way keeps the symmetry. Activity being under profile wouldn't be such an issue, since users only need to tap on the tab when there is something to check out. When the activity tab doesn't have the red number above it, it's essentially useless.</p>
+                    <p>"Nearby" has been completely removed and combined into "Search" (just as "Shuffle" is in "Home"). "Profile" is unchanged.</p>
+                    <p>I forgot to mention the "About" button on the "Home" tab. This view is mostly FAQ and privacy policy, something apps don't usually include. Although you can't see it, the "About" section is moved to the settings app, as is with most apps.</p>
+                    <p><strong>Next?</strong></p>
+                    <p>There are still plenty of web to app translations that need to be done. Lists are definitely number one on my list, seeing as how they allow for the most creativity in this instance.</p>
+                </div>
+            </div>
+            
+            <hr>
+            
+            <footer>
+                copyright © <script type="text/javascript">document.write(year);</script> Stuart J. Moore
+            </footer>
+        </div>
+        
+        <script type="text/javascript" src="../../js/jquery.js"></script>
+        <script type="text/javascript" src="../../js/bootstrap-transition.js"></script>
+        <script type="text/javascript" src="../../js/bootstrap-collapse.js"></script>
+        <script type="text/javascript" src="../../js/retina.js"></script>
+    </body>
+</html>

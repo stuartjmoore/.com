@@ -1,0 +1,68 @@
+
+body
+{
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.hero
+{
+    margin-top: 1.5em;
+}
+
+.nav-pills
+{
+}
+.nav-pills > li
+{
+    float: none;
+    display: inline-block;
+}
+.nav-pills > li > a
+{
+    border-radius: 0;
+    color: #808080;
+}
+.nav-pills > li > a:hover
+{
+}
+.nav-pills > .active > a,
+.nav-pills > .active > a:hover
+{
+    color: black;
+    font-weight: bold;
+    background-color: white;
+}
+
+.header
+{
+    text-align: center;
+}
+
+h2
+{
+    margin: 0;
+}
+
+.subtitle
+{
+    margin-bottom: 1em;
+    display: inline-block;
+    color: #666;
+}
+
+a
+{
+    color: #005B7F;
+}
+    
+ul
+{
+    margin-left: 0;
+}
+
+footer
+{
+    color: #666;
+    margin-bottom: 20px;
+    text-align:center;
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <title>Intentionally Blank</title>
+        <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+        <meta name="description" content="">
+        <meta name="author" content="">
+                        
+        <link rel="shortcut icon" type="image/png" href="../../images/favicon.png">
+                            
+        <link href="../../css/bootstrap.css" rel="stylesheet">
+        <link href="../../css/style.css" rel="stylesheet">
+        <!--<link href="../../css/bootstrap-responsive.css" rel="stylesheet">-->
+                                    
+        <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+        <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+            
+        <script type="text/javascript">
+            var date = new Date();
+            var year = date.getFullYear();
+        </script>
+    </head>
+    
+    <body>
+        
+        <div class="container">
+            
+            <div class="row hero">
+                <div class="span12">
+                    <img src="../images/header.png">
+                        </div>
+            </div>
+            
+            <hr>
+            
+            <ul class="nav nav-pills">
+                <li><a href="../../">Projects</a></li>
+                <li><a href="../../personal">Personal</a></li>
+                <li class="active"><a href="../">Blog</a></li>
+            </ul>
+            
+            <hr>
+            
+            <div class="row">
+                <div class="span12">
+                    <h2>Infinite Scrolling</h2>
+                    <p></p>
+                    <p>User interface design, like all design, tends to have trends. One designer has a good idea to solve a problem, another evolves that idea to solve their own. Eventually, they go beyond trend to become fully fledged UI elements. Infinite scroll lists are reaching that destination.</p>
+                    <p>Typical scroll lists just move up and down, showing a predetermined number of rows. But infinite scroll lists have much more data, never switch to a new view, and can continue to scroll far beyond the user’s needs.</p>
+                    <p>They can be best categorized even further as:</p>
+                    <p>
+                        <ul>
+                            <li>Pull to refresh</li>
+                            <li>Progressive loading</li>
+                            <li>Truly infinite</li>
+                        </ul>
+                    </p>
+                    <p><strong>Pull to Refresh</strong></p>
+                    <p>The first such instance of an infinitely scrollable list [note: data pulled from my ass] would be Tweetie’s “pull to refresh” action. It’s very loosely infinite, but it allowed the user to see the newest tweets on their timeline by scrolling, not hitting a button or waiting for a timeout.</p>
+                    <p>When the user wants to see newer items, they scroll up. But if they’re at the newest item, they hit a brick wall. The app knows the user is looking for newer data, and the server may have some, so it asks the user if they want to refresh. They can let go to not refresh or pull down further to ping the server.</p>
+                    <p>Not much to say here except that it is a great way to take the user’s intended actions into account, instead of relying on them to tap a button.</p>
+                    <p><strong>Progressive Loading</strong></p>
+                    <p>Progressive loading is a lot like pull to refresh, except it’s the opposite. When the user reaches the bottom of a list, the server is pinged for older data. The alternative is to provide “next” and “previous” buttons. But, depending on the data, why make a user paginate through multiple views? If they’re at the bottom, just load the rest of the list.</p>
+                    <p>This is where infinite scrolling gets interesting. The assumption is that the older data is so vast, the user may never be able to reach the end. Progressive loading allows a server to send all the data eventually when needed, instead of sending gigabytes of it at once. But, there are a few problems with loading progressively.</p>
+                    <p><em>Smoothness</em></p>
+                    <p>Everything about computers needs to be smooth, especially scrolling. Loading more data at the end of a list tends to create a “jump”. You’re scrolling down a page, 40 pixels at a time, and your last scroll is only 15 pixels to the end of the page. Suddenly, the rest of the content is loaded and you’re scrolling at 40 pixels again. Not very smooth.</p>
+                    <p>Google+ handles this very well. They progressively load your photos as you scroll down, but the call is made early enough, and possibly only for size data, that the rest of the images fade in seamlessly. You almost don’t notice the scrollbar getting smaller and smaller.</p>
+                    <p>Twitter’s web app tries, but falls a little short. The loading doesn’t occur until you reach the very bottom (causing a jump), as noted by the indicator. Scrolling is interrupted, since you can’t scroll until the tweets have loaded, leaving the user with lost input. The jump and lost scrolling makes following where you are a little difficult, unlike in Google+.</p>
+                    <p><em>Bottom Content</em></p>
+                    <p>I can’t believe I have to say this, but if you load progressively, don’t put content below the infinite scroll list. If the user scrolls down to click a link and the page loads another 1,000 pixels of content, that link will disappear far below their cursor.</p>
+                    <p>Twitter solved this by putting the typical “bottom content” at the bottom of a right-aligned column, out of the way of the infinite list. But Facebook wasn’t so smart. They left their bottom content there, right below the list. Now, every time the user wants to click on “Advertising”, they have to do battle with the progressive loading of their friend’s news. What’s worse is how random the loading seems.</p>
+                    <p><strong>Truly infinite</strong></p>
+                    <p>I have yet to see an example of this, but I’m sure it could exist. Pull to refresh is only reloaded when there is something new, Progressive loading has a limit to how much is stored in the database, but truly infinite lists could theoretically never stop.</p>
+                    <p>A truly infinite list wouldn’t load data, because data is finite, it would have to be used for something that expands forever. Numbers most likely. A calendar that scrolls (instead of kitschly paginating the months away in 3D) would be truly infinite while progressively loading the event data. Time doesn’t end, why should a calendar?</p>
+                    <p>This creates a problem for scrollbars. Scrollbars tell you where you are; a sort of progress bar. They allow you to move easily within a list (although scroll wheels have largely replaced that). How would a scrollbar for a truly infinite list work?</p>
+                </div>
+            </div>
+            
+            <hr>
+            
+            <footer>
+                copyright © <script type="text/javascript">document.write(year);</script> Stuart J. Moore
+            </footer>
+        </div>
+        
+        <script type="text/javascript" src="../../js/jquery.js"></script>
+        <script type="text/javascript" src="../../js/bootstrap-transition.js"></script>
+        <script type="text/javascript" src="../../js/bootstrap-collapse.js"></script>
+        <script type="text/javascript" src="../../js/retina.js"></script>
+    </body>
+</html>
