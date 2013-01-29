@@ -1,8 +1,8 @@
 {
     "live": {
         "title": "TWiT Live",
-        "desc": "",
-        "schedule": "http://",
+        "desc": "The TWiT.tv Netcast Network with Leo Laporte features the #1 ranked technology podcast This Week in Tech, along with over 20 other top-ranked online shows.",
+        "schedule": "http://www.google.com/calendar/feeds/mg877fp19824mj30g497frm74o@group.calendar.google.com/public/embed?ctz=America%%2FLos_Angeles&start-min=%@T00%%3A00%%3A00-08%%3A00&start-max=%@T00%%3A00%%3A00-08%%3A00&singleevents=true&max-results=720&alt=json",
         "website": "http://twit.tv",
         "pubdate":"2012-11-18T00:00:00.000Z",
         "urls": [
@@ -40,13 +40,6 @@
                  "title": "BitGravity",
                  "subtitle": "High, 1 Mbps",
                  "quality": 4
-                 },
-                 {
-                 "location": "http://usher.justin.tv/stream/multi_playlist/twit.m3u",
-                 "type": "video",
-                 "title": "Justin.tv",
-                 "subtitle": "1 Mbps",
-                 "quality": 5
                  }
                  ]
     },
@@ -59,9 +52,10 @@
               "desc": "Your first podcast of the week is the last word in tech. Join the top tech pundits in a roundtable discussion of the latest trends in high tech. Winner of “Best Video Podcast” in the 2009 People’s Choice Podcast Awards.",
               "pubdate":"2012-11-18T00:00:00.000Z",
               "hosts": "Leo Laporte",
-              "album_art": "http://feeds.twit.tv/podcasts/coverart/twit600.jpg",
-              "poster": "http://twit.tv/files/imagecache/slideshow-slide/twit0377.jpg",
+              "album_art": "http://feeds.twit.tv/podcasts/coverart/twit600.jpg#1353196800",
+              "poster": "http://twit.tv/files/imagecache/slideshow-slide/twit0377.jpg#1353196800",
               "schedule": "SU@1500",
+              "update_interval": 518400,
               "website": "http://twit.tv/twit",
               "urls": [
                        {
@@ -102,11 +96,12 @@
               "desc": "Tom Merritt brings you “Tech News Today” with co-hosts Sarah Lane (TechTV, Revision3), Iyaz Akhtar (PC Mag, TechVi) and others. Get up to speed, with a fun and friendly ride through the need-to-know tech news of the day.",
               "pubdate":"2012-11-18T00:00:00.000Z",
               "hosts": "Tom Merritt, Sarah Lane, Iyaz Akhtar, & Jason Howell",
-              "album_art": "http://feeds.twit.tv/podcasts/coverart/tnt600.jpg",
-              "poster": "http://twit.tv/files/imagecache/slideshow-slide/tnt0630.jpg",
+              "album_art": "http://feeds.twit.tv/podcasts/coverart/tnt600.jpg#1353196800",
+              "poster": "http://twit.tv/files/imagecache/slideshow-slide/tnt0630.jpg#1353196800",
               "phone": "(260)868-7469",
               "email": "tnt@twit.tv",
               "schedule": "MO,TU,WE,TH,FR@1000",
+              "update_interval": 72000,
               "website": "http://twit.tv/tnt",
               "urls": [
                        {
@@ -147,9 +142,10 @@
               "desc": "Tech geeks Leo Laporte and Sarah Lane love their iPads so much, they’ve created “iPad Today,” the TWiT network’s first show highlighting the best apps, most helpful tools, coolest tricks, and essential news surrounding the iPad revolution. “iPad Today” is smart, informative, and lots of fun.",
               "pubdate":"2012-11-18T00:00:00.000Z",
               "hosts": "Leo Laporte & Sarah Lane",
-              "album_art": "http://feeds.twit.tv/podcasts/coverart/ipad600.jpg",
-              "poster": "http://twit.tv/files/imagecache/slideshow-slide/ipt%20122%20edit.png",
+              "album_art": "http://feeds.twit.tv/podcasts/coverart/ipad600.jpg#1353196800",
+              "poster": "http://twit.tv/files/imagecache/slideshow-slide/ipt%20122%20edit.png#1353196800",
               "schedule": "TH@1300",
+              "update_interval": 518400,
               "phone": "(757)504-4723",
               "email": "ipadtoday@twit.tv",
               "website": "http://twit.tv/ipt",
@@ -192,9 +188,10 @@
               "desc": "All About Android delivers everything you want to know about Android each week, bringing you the biggest news, freshest hardware, best apps and geekiest how-to’s, with Android enthusiasts Jason Howell, Eileen Rivera, Ron Richards, and a host of special guests along the way.",
               "pubdate":"2012-11-18T00:00:00.000Z",
               "hosts": "Jason Howell, Eileen Rivera, & Ron Richards",
-              "album_art": "http://feeds.twit.tv/podcasts/coverart/aaa600.jpg",
-              "poster": "http://twit.tv/files/imagecache/slideshow-slide/aaa0085.jpg",
+              "album_art": "http://feeds.twit.tv/podcasts/coverart/aaa600.jpg#1353196800",
+              "poster": "http://twit.tv/files/imagecache/slideshow-slide/aaa0090.jpg#1353196800",
               "schedule": "TU@1700",
+              "update_interval": 518400,
               "phone": "(347)746-9222",
               "email": "aaa@twit.tv",
               "website": "http://twit.tv/aaa",
@@ -231,6 +228,13 @@
                        "title": "SD",
                        "subtitle": "H.264",
                        "quality": 2
+                       },
+                       {
+                       "location": "http://feeds.twit.tv/aaa_video_hd",
+                       "type": "video",
+                       "title": "HD",
+                       "subtitle": "H.264",
+                       "quality": 3
                        }
                        ]
               },
@@ -242,9 +246,10 @@
               "desc": "Social web addicts Sarah Lane and Amber MacArthur have teamed up to create “The Social Hour,” your source for the best social tools, news, and fascinating folks building the next generation of the Internet. “The Social Hour” is helpful, inspiring, interactive, and fun!",
               "pubdate":"2012-11-18T00:00:00.000Z",
               "hosts": "Amber MacArthur & Sarah Lane",
-              "album_art": "http://feeds.twit.tv/podcasts/coverart/tsh600.jpg",
-              "poster": "http://twit.tv/files/imagecache/slideshow-slide/tsh86.png",
+              "album_art": "http://feeds.twit.tv/podcasts/coverart/tsh600.jpg#1353196800",
+              "poster": "http://twit.tv/files/imagecache/slideshow-slide/tsh86.png#1353196800",
               "schedule": "FR@1300",
+              "update_interval": 518400,
               "phone": "(262)676-2425",
               "email": "thesocialhour@twit.tv",
               "website": "http://twit.tv/tsh",
@@ -281,20 +286,28 @@
                        "title": "SD",
                        "subtitle": "H.264",
                        "quality": 2
+                       },
+                       {
+                       "location": "http://feeds.twit.tv/tsh_video_hd",
+                       "type": "video",
+                       "title": "HD",
+                       "subtitle": "H.264",
+                       "quality": 3
                        }
                        ]
               },
               {
               "id": 6,
               "title": "Ham Nation",
-              "schedule_title": "HamNation",
+              "schedule_title": "Ham Nation",
               "short_title": "HN",
               "desc": "HAM Nation is the new TWIT show about ham radio. Bob Heil, with various co-hosts and guests will cover the excitement and importance of ham radio—from tossing an antenna wire in a tree allowing you to talk to the world, to the importance of ham radio operators in time of disasters.",
               "pubdate":"2012-11-18T00:00:00.000Z",
               "hosts": "Bob Heil (K9EID) & Gordon West (WB6NOA)",
-              "album_art": "http://feeds.twit.tv/podcasts/coverart/hn600.jpg",
-              "poster": "http://twit.tv/files/imagecache/slideshow-slide/hn0065.jpg",
+              "album_art": "http://feeds.twit.tv/podcasts/coverart/hn600.jpg#1353196800",
+              "poster": "http://twit.tv/files/imagecache/slideshow-slide/hn0065.jpg#1353196800",
               "schedule": "WE@1800",
+              "update_interval": 518400,
               "website": "http://twit.tv/hn",
               "urls": [
                        {
@@ -335,9 +348,10 @@
               "desc": "Every week Leo talks to the smartest people in the world about the most important topics in technology.",
               "pubdate":"2012-11-18T00:00:00.000Z",
               "hosts": "Leo Laporte",
-              "album_art": "http://feeds.twit.tv/podcasts/coverart/tri600.jpg",
-              "poster": "http://twit.tv/files/imagecache/slideshow-slide/tri0076.jpg",
+              "album_art": "http://feeds.twit.tv/podcasts/coverart/tri600.jpg#1353196800",
+              "poster": "http://twit.tv/files/imagecache/slideshow-slide/tri0076.jpg#1353196800",
               "schedule": "WE@1500",
+              "update_interval": 518400,
               "website": "http://twit.tv/tri",
               "urls": [
                        {
@@ -360,6 +374,13 @@
                        "title": "SD",
                        "subtitle": "H.264",
                        "quality": 2
+                       },
+                       {
+                       "location": "http://feeds.twit.tv/tri_video_hd",
+                       "type": "video",
+                       "title": "HD",
+                       "subtitle": "H.264",
+                       "quality": 3
                        }
                        ]
               },
@@ -371,9 +392,10 @@
               "desc": "Leo Laporte, Gina Trapani, Jeff Jarvis, and their guests talk about the latest Google and cloud computing news.",
               "pubdate":"2012-11-18T00:00:00.000Z",
               "hosts": "Leo Laporte, Jeff Jarvis, & Gina Trapani",
-              "album_art": "http://feeds.twit.tv/podcasts/coverart/twig600.jpg",
-              "poster": "http://twit.tv/files/imagecache/slideshow-slide/twig0167.jpg",
+              "album_art": "http://feeds.twit.tv/podcasts/coverart/twig600.jpg#1353196800",
+              "poster": "http://twit.tv/files/imagecache/slideshow-slide/twig0167.jpg#1353196800",
               "schedule": "WE@1300",
+              "update_interval": 518400,
               "website": "http://twit.tv/twig",
               "colors":{
               "top":{
@@ -408,6 +430,13 @@
                        "title": "SD",
                        "subtitle": "H.264",
                        "quality": 2
+                       },
+                       {
+                       "location": "http://feeds.twit.tv/twig_video_hd",
+                       "type": "video",
+                       "title": "HD",
+                       "subtitle": "H.264",
+                       "quality": 3
                        }
                        ]
               },
@@ -419,9 +448,10 @@
               "desc": "Magician and scam artist Brian Brushwood teams with sidekick Justin Robert Young for a weekly irreverent fun fest featuring unusual guests, bizarre games, and strange and wonderful tales.",
               "pubdate":"2012-11-18T00:00:00.000Z",
               "hosts": "Shwood & JuRY",
-              "album_art": "http://feeds.twit.tv/podcasts/coverart/nsfw600.jpg",
-              "poster": "http://twit.tv/files/imagecache/slideshow-slide/nsfow%20153%20%3E%3E.jpg",
+              "album_art": "http://feeds.twit.tv/podcasts/coverart/nsfw600.jpg#1353196800",
+              "poster": "http://twit.tv/files/imagecache/slideshow-slide/nsfow%20153%20%3E%3E.jpg#1353196800",
               "schedule": "TU@1900",
+              "update_interval": 518400,
               "email": "nsfwshow@gmail.com",
               "website": "http://twit.tv/nsfw",
               "colors":{
@@ -475,9 +505,10 @@
               "desc": "Each week, Windows expert Paul Thurrott of the SuperSite for Windows talks about Windows 7 and all things Microsoft.",
               "pubdate":"2012-11-18T00:00:00.000Z",
               "hosts": "Paul Thurrott, Mary Jo Fole, & Leo Laporte",
-              "album_art": "http://feeds.twit.tv/podcasts/coverart/ww600.jpg",
-              "poster": "http://twit.tv/files/imagecache/slideshow-slide/ww0287%20011434%3B03.jpg",
+              "album_art": "http://feeds.twit.tv/podcasts/coverart/ww600.jpg#1353196800",
+              "poster": "http://twit.tv/files/imagecache/slideshow-slide/ww0287%20011434%3B03.jpg#1353196800",
               "schedule": "TH@1100",
+              "update_interval": 518400,
               "website": "http://twit.tv/ww",
               "colors":{
               "top":{
@@ -512,6 +543,13 @@
                        "title": "SD",
                        "subtitle": "H.264",
                        "quality": 2
+                       },
+                       {
+                       "location": "http://feeds.twit.tv/ww_video_hd",
+                       "type": "video",
+                       "title": "HD",
+                       "subtitle": "H.264",
+                       "quality": 3
                        }
                        ]
               },
@@ -523,9 +561,10 @@
               "desc": "Get the latest Apple news and views from the top names in Mac, iPhone, iPod, and iPad journalism.",
               "pubdate":"2012-11-18T00:00:00.000Z",
               "hosts": "Leo Laporte, Alex Lindsay, & Andy Ihnatko",
-              "album_art": "http://feeds.twit.tv/podcasts/coverart/mbw600.jpg",
-              "poster": "http://twit.tv/files/imagecache/slideshow-slide/mbw0322.jpg",
+              "album_art": "http://feeds.twit.tv/podcasts/coverart/mbw600.jpg#1353196800",
+              "poster": "http://twit.tv/files/imagecache/slideshow-slide/mbw0322.jpg#1353196800",
               "schedule": "TU@1100",
+              "update_interval": 518400,
               "website": "http://twit.tv/mbw",
               "colors":{
               "top":{
@@ -578,9 +617,10 @@
               "desc": "The complete aircheck of Leo Laporte’s technology call-in radio show minus commercials, news, and traffic.",
               "pubdate":"2012-11-18T00:00:00.000Z",
               "hosts": "Leo Laporte",
-              "album_art": "http://feeds.twit.tv/podcasts/coverart/ttg600.jpg",
-              "poster": "http://twit.tv/files/imagecache/slideshow-slide/ttg0924.jpg",
+              "album_art": "http://feeds.twit.tv/podcasts/coverart/ttg600.jpg#1353196800",
+              "poster": "http://twit.tv/files/imagecache/slideshow-slide/ttg0924.jpg#1353196800",
               "schedule": "SA,SU@1100",
+              "update_interval": 345600,
               "phone": "1(888)827-5536",
               "website": "http://twit.tv/ttg",
               "colors":{
@@ -616,20 +656,28 @@
                        "title": "SD",
                        "subtitle": "H.264",
                        "quality": 2
+                       },
+                       {
+                       "location": "http://feeds.twit.tv/ttg_video_hd",
+                       "type": "video",
+                       "title": "HD",
+                       "subtitle": "H.264",
+                       "quality": 3
                        }
                        ]
               },
               {
               "id": 15,
-              "title": "The Giz Wiz Show",
-              "schedule_title": "Weekly Daily Giz Wiz",
+              "title": "The Giz Wiz",
+              "schedule_title": "The Giz Wiz",
               "short_title": "DGW",
               "desc": "Mad’s maddest writer and The Giz Wiz, Dick DeBartolo, digs into his massive gadget collection for the gadget of the day, co-hosted by Leo Laporte.",
               "pubdate":"2012-11-18T00:00:00.000Z",
               "hosts": "Dick DeBartolo with Leo Laporte",
-              "album_art": "http://feeds.twit.tv/podcasts/coverart/dgw600.jpg",
-              "poster": "http://twit.tv/files/imagecache/slideshow-slide/dgw1390.jpg",
+              "album_art": "http://feeds.twit.tv/podcasts/coverart/dgw600.jpg#1353196800",
+              "poster": "http://twit.tv/files/imagecache/slideshow-slide/dgw1390.jpg#1353196800",
               "schedule": "TU@1300",
+              "update_interval": 518400,
               "website": "http://twit.tv/dgw",
               "colors":{
               "top":{
@@ -664,6 +712,13 @@
                        "title": "SD",
                        "subtitle": "H.264",
                        "quality": 2
+                       },
+                       {
+                       "location": "http://feeds.twit.tv/dgw_video_hd",
+                       "type": "video",
+                       "title": "HD",
+                       "subtitle": "H.264",
+                       "quality": 3
                        }
                        ]
               },
@@ -675,9 +730,10 @@
               "desc": "Steve Gibson, the man who coined the term spyware and created the first anti-spyware program, creator of Spinrite and ShieldsUP, discusses the hot topics in security today with Leo Laporte.",
               "pubdate":"2012-11-18T00:00:00.000Z",
               "hosts": "Steve Gibson with Leo Laporte",
-              "album_art": "http://feeds.twit.tv/podcasts/coverart/sn600.jpg",
-              "poster": "http://twit.tv/files/imagecache/slideshow-slide/sn0376.jpg",
+              "album_art": "http://feeds.twit.tv/podcasts/coverart/sn600.jpg#1353196800",
+              "poster": "http://twit.tv/files/imagecache/slideshow-slide/sn0376.jpg#1353196800",
               "schedule": "WE@1100",
+              "update_interval": 518400,
               "website": "http://twit.tv/sn",
               "colors":{
               "top":{
@@ -712,6 +768,13 @@
                        "title": "SD",
                        "subtitle": "H.264",
                        "quality": 2
+                       },
+                       {
+                       "location": "http://feeds.twit.tv/sn_video_hd",
+                       "type": "video",
+                       "title": "HD",
+                       "subtitle": "H.264",
+                       "quality": 3
                        }
                        ]
               },
@@ -723,9 +786,10 @@
               "desc": "Get the inside scoop on the geeky world of tv, movies and video, no matter what screen it’s on.",
               "pubdate":"2012-11-18T00:00:00.000Z",
               "hosts": "Brian Brushwood & Tom Merritt",
-              "album_art": "http://feeds.twit.tv/podcasts/coverart/fr600.jpg",
-              "poster": "http://twit.tv/files/imagecache/slideshow-slide/fr0101%20010901%3B22_0.jpg",
-              "schedule": "MO@1500",
+              "album_art": "http://feeds.twit.tv/podcasts/coverart/fr600.jpg#1353196800",
+              "poster": "http://twit.tv/files/imagecache/slideshow-slide/fr0101%20010901%3B22_0.jpg#1353196800",
+              "schedule": "MO@1530",
+              "update_interval": 518400,
               "email": "framerate@twit.tv",
               "website": "http://twit.tv/fr",
               "colors":{
@@ -761,6 +825,13 @@
                        "title": "SD",
                        "subtitle": "H.264",
                        "quality": 2
+                       },
+                       {
+                       "location": "http://feeds.twit.tv/fr_video_hd",
+                       "type": "video",
+                       "title": "HD",
+                       "subtitle": "H.264",
+                       "quality": 3
                        }
                        ]
               },
@@ -772,9 +843,10 @@
               "desc": "Building a new computer? This Week in Computer Hardware is the show where you’ll find out the latest in motherboards, CPUs, GPUs, and RAM you’ll want to use when designing your machine. TWiCH gives you the latest in hardware benchmarks and what not-yet-released products might be on the horizon. Hosted by Ryan Shrout of PC Perspective and Patrick Norton.",
               "pubdate":"2012-11-18T00:00:00.000Z",
               "hosts": "Ryan Shrout & Patrick Norton",
-              "album_art": "http://twit.tv/files/imagecache/coverart/coverart/twich600.jpg",
-              "poster": "http://twit.tv/files/imagecache/slideshow-slide/twich0195%20001627%3B57.jpg",
+              "album_art": "http://twit.tv/files/imagecache/coverart/coverart/twich600.jpg#1353196800",
+              "poster": "http://twit.tv/files/imagecache/slideshow-slide/twich0195%20001627%3B57.jpg#1353196800",
               "schedule": "TH@1800",
+              "update_interval": 518400,
               "website": "http://twit.tv/twich",
               "urls": [
                        {
@@ -808,9 +880,10 @@
               "desc": "Scott Wilkinson, online editor of UltimateAVmag.com and HomeTheaterMag.com, interviews the leaders and pioneers behind today’s home theater technology. Scott is a regular on The Tech Guy with Leo Laporte, and here he explores the technologies behind your screen.",
               "pubdate":"2012-11-18T00:00:00.000Z",
               "hosts": "Scott Wilkinson",
-              "album_art": "http://feeds.twit.tv/podcasts/coverart/htg600.jpg",
-              "poster": "http://twit.tv/files/imagecache/slideshow-slide/htg0134.jpg",
+              "album_art": "http://feeds.twit.tv/podcasts/coverart/htg600.jpg#1353196800",
+              "poster": "http://twit.tv/files/imagecache/slideshow-slide/htg0134.jpg#1353196800",
               "schedule": "MO@1300",
+              "update_interval": 518400,
               "website": "http://twit.tv/htg",
               "colors":{
               "top":{
@@ -845,19 +918,28 @@
                        "title": "SD",
                        "subtitle": "H.264",
                        "quality": 2
+                       },
+                       {
+                       "location": "http://feeds.twit.tv/htg_video_hd",
+                       "type": "video",
+                       "title": "HD",
+                       "subtitle": "H.264",
+                       "quality": 3
                        }
                        ]
               },
               {
               "id": 21,
               "title": "TWiT Live Specials",
+              "schedule_title": "TWiT Live Specials",
               "short_title": "Specials",
               "desc": "Leo Laporte and the TWiTs go off the beaten path to bring you non-standard shows from the network, including live-on-location events, special interviews, shows in beta, and geek conference expeditions.",
               "pubdate":"2012-11-18T00:00:00.000Z",
               "hosts": "Tom Merritt & Sarah Lane",
-              "album_art": "http://feeds.twit.tv/podcasts/coverart/specials600.jpg",
-              "poster": "http://twit.tv/files/imagecache/slideshow-slide/specials0141.jpg",
+              "album_art": "http://feeds.twit.tv/podcasts/coverart/specials600.jpg#1353196800",
+              "poster": "http://twit.tv/files/imagecache/slideshow-slide/specials0141.jpg#1353196800",
               "schedule": "Special Events",
+              "update_interval": 72000,
               "website": "http://twit.tv/specials",
               "colors":{
               "top":{
@@ -892,6 +974,13 @@
                        "title": "SD",
                        "subtitle": "H.264",
                        "quality": 2
+                       },
+                       {
+                       "location": "http://feeds.twit.tv/twig_video_hd",
+                       "type": "video",
+                       "title": "HD",
+                       "subtitle": "H.264",
+                       "quality": 3
                        }
                        ]
               },
@@ -903,9 +992,10 @@
               "desc": "We’re not talking dentistry here; FLOSS all about Free Libre Open Source Software. Join host Randal Schwartz and his rotating panel of co-hosts every Wednesday as they talk with the most interesting and important people in the Open Source and Free Software community.",
               "hosts": "Randal Schwartz & Dan Lynch",
               "pubdate":"2012-11-18T00:00:00.000Z",
-              "album_art": "http://feeds.twit.tv/podcasts/coverart/floss600.jpg",
-              "poster": "http://twit.tv/files/imagecache/slideshow-slide/floss0232.png",
+              "album_art": "http://feeds.twit.tv/podcasts/coverart/floss600.jpg#1353196800",
+              "poster": "http://twit.tv/files/imagecache/slideshow-slide/floss0232.png#1353196800",
               "schedule": "WE@0830",
+              "update_interval": 518400,
               "website": "http://twit.tv/floss",
               "urls": [
                        {
@@ -946,9 +1036,10 @@
               "desc": "Join Denise Howell and the TWiL panel as they discuss breaking issues in technology law including patents, copyrights, and more.",
               "pubdate":"2012-11-18T00:00:00.000Z",
               "hosts": "Denise Howell",
-              "album_art": "http://feeds.twit.tv/podcasts/coverart/twil600.jpg",
-              "poster": "http://twit.tv/files/imagecache/slideshow-slide/twil188.png",
+              "album_art": "http://feeds.twit.tv/podcasts/coverart/twil600.jpg#1353196800",
+              "poster": "http://twit.tv/files/imagecache/slideshow-slide/twil188.png#1353196800",
               "schedule": "FR@1100",
+              "update_interval": 518400,
               "website": "http://twit.tv/twil",
               "urls": [
                        {
@@ -971,6 +1062,13 @@
                        "title": "SD",
                        "subtitle": "H.264",
                        "quality": 2
+                       },
+                       {
+                       "location": "http://feeds.twit.tv/twil_video_hd",
+                       "type": "video",
+                       "title": "HD",
+                       "subtitle": "H.264",
+                       "quality": 3
                        }
                        ]
               },
@@ -982,9 +1080,10 @@
               "desc": "Before You Buy is a product reviews show on the TWiT Network. TWiT staff get together to test out the latest gadgets—everything from phones to cameras—to help consumers make wise buying decisions. Make sure you watch “BYB” before you buy!",
               "pubdate":"2012-11-18T00:00:00.000Z",
               "hosts": "The TWiT Staff",
-              "album_art": "http://feeds.twit.tv/podcasts/coverart/byb600.jpg",
-              "poster": "http://twit.tv/files/imagecache/slideshow-slide/byb0045%20edit.png",
+              "album_art": "http://feeds.twit.tv/podcasts/coverart/byb600.jpg#1353196800",
+              "poster": "http://twit.tv/files/imagecache/slideshow-slide/byb0045%20edit.png#1353196800",
               "schedule": "TU@1500",
+              "update_interval": 518400,
               "website": "http://twit.tv/byb",
               "colors":{
               "top":{
@@ -1037,9 +1136,10 @@
               "desc": "Get the know how to make technology work for you. Iyaz Akhtar and Leo Laporte show you tech projects that you can do yourself and explain everything from tech basics to advanced techniques.",
               "pubdate":"2012-11-18T00:00:00.000Z",
               "hosts": "Iyaz Akhtar & Leo Laporte",
-              "album_art": "http://feeds.twit.tv/podcasts/coverart/kh600.jpg",
-              "poster": "http://twit.tv/files/imagecache/slideshow-slide/kh1%20REAL.jpg",
+              "album_art": "http://feeds.twit.tv/podcasts/coverart/kh600.jpg#1353196800",
+              "poster": "http://twit.tv/files/imagecache/slideshow-slide/kh1%20REAL.jpg#1353196800",
               "schedule": "TH@1500",
+              "update_interval": 518400,
               "phone": "(408)800-5669",
               "email": "knowhow@twit.tv",
               "website": "http://twit.tv/kh",
@@ -1094,9 +1194,10 @@
               "desc": "This Week in Enterprise Tech explores the complex, cutting edge world of enterprise technology. Hosted by Father Robert Ballecer, aka Friar Tech, TWiET features IT professionals explaining the ins and outs of enterprise solutions.",
               "pubdate":"2012-11-18T00:00:00.000Z",
               "hosts": "Fr. Robert Ballecer",
-              "album_art": "http://feeds.twit.tv/podcasts/coverart/twiet600.jpg",
-              "poster": "http://twit.tv/files/imagecache/slideshow-slide/twiet0001.jpg",
+              "album_art": "http://feeds.twit.tv/podcasts/coverart/twiet600.jpg#1353196800",
+              "poster": "http://twit.tv/files/imagecache/slideshow-slide/twiet0001.jpg#1353196800",
               "schedule": "MO@1200",
+              "update_interval": 518400,
               "website": "http://twit.tv/twiet",
               "colors":{
               "top":{
@@ -1149,9 +1250,10 @@
               "desc": "iFive for the iPhone is your top five list of the best the iPhone has to offer. Find the hottest new apps and learn helpful tricks to get the most out of your iPhone. Hosted by Sarah Lane, this fast-paced show will make you an iPhone master in no time.",
               "pubdate":"2012-11-18T00:00:00.000Z",
               "hosts": "Sarah Lane",
-              "album_art": "http://feeds.twit.tv/podcasts/coverart/ifive600.jpg",
-              "poster": "http://twit.tv/files/imagecache/slideshow-slide/ifive0000.jpg",
+              "album_art": "http://feeds.twit.tv/podcasts/coverart/ifive600.jpg#1353196800",
+              "poster": "http://twit.tv/files/imagecache/slideshow-slide/ifive0000.jpg#1353196800",
               "schedule": "MO@1100",
+              "update_interval": 518400,
               "phone": "(614)664-3483",
               "email": "ifive@twit.tv",
               "website": "http://twit.tv/ifive",
