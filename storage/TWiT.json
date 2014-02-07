@@ -1384,7 +1384,7 @@
               },
               "urls": [
                        {
-                       "location": "http://feeds.twit.tv/code",
+                       "location": "http://feeds.twit.tv/code.xml",
                        "type": "audio",
                        "title": "Audio",
                        "subtitle": "MP3",
