@@ -43,8 +43,6 @@
 
                 return query_string;
             }();
-            
-            document.forms[0].elements[0].value = queryString.app;
         </script>
     </head>
     
@@ -84,5 +82,9 @@
         <script type="text/javascript" src="../js/bootstrap-transition.js"></script>
         <script type="text/javascript" src="../js/bootstrap-collapse.js"></script>
         <script type="text/javascript" src="../js/retina.js"></script>
+        
+        <script type="text/javascript">
+            document.forms[0].elements[0].value = queryString.app;
+        </script>
     </body>
 </html>
