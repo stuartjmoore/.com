@@ -1412,6 +1412,177 @@
                        "quality": 3
                        }
                        ]
+              },
+              {
+              "id": 38,
+              "title": "The New Screen Savers",
+              "schedule_title": "The New Screen Savers",
+              "short_title": "TNSS",
+              "desc": "The New Screen Savers is a variety show for tech on the TWiT network. Viewers get live tech help, interesting guests, insights into the latest innovations, products and trends, plus lots of fun things thrown in, too.",
+              "pubdate":"2015-09-02T00:00:00.000Z",
+              "hosts": "Leo Laporte",
+              "album_art": "http://twit.cachefly.net/coverart/tnss/tnss600.jpg#1353196800",
+              "poster": "https://elroy.twit.tv/sites/default/files/images/episodes/89911/hero/tnss0017_h264.00_04_14_03.still001.jpg#1353196800",
+              "schedule": "SA@1500",
+              "update_interval": 518400,
+              "email": "leo@twit.tv",
+              "website": "http://twit.tv/tnss",
+              "colors":{
+              "top":{
+              "red":255,
+              "green":129,
+              "blue":0
+              },
+              "bottom":{
+              "red":254,
+              "green":82,
+              "blue":0
+              }
+              },
+              "urls": [
+                       {
+                       "location": "http://feeds.twit.tv/tnss.xml",
+                       "type": "audio",
+                       "title": "Audio",
+                       "subtitle": "MP3",
+                       "quality": 0
+                       },
+                       {
+                       "location": "http://feeds.twit.tv/tnss_video_small.xml",
+                       "type": "video",
+                       "title": "Mobile",
+                       "subtitle": "H.264",
+                       "quality": 1
+                       },
+                       {
+                       "location": "http://feeds.twit.tv/tnss_video_large.xml",
+                       "type": "video",
+                       "title": "SD",
+                       "subtitle": "H.264",
+                       "quality": 2
+                       },
+                       {
+                       "location": "http://feeds.twit.tv/tnss_video_hd.xml",
+                       "type": "video",
+                       "title": "HD",
+                       "subtitle": "H.264",
+                       "quality": 3
+                       }
+                       ]
+              },
+              {
+              "id": 39,
+              "title": "Android App Arena",
+              "schedule_title": "Android App Arena",
+              "short_title": "Arena",
+              "desc": "Android App Arena is your weekly source for some of the latest and greatest apps and games available on the Android mobile platform.",
+              "pubdate":"2015-09-02T00:00:00.000Z",
+              "hosts": "Jason Howell",
+              "album_art": "http://twit.cachefly.net/coverart/arena/arena600.jpg",
+              "poster": "https://elroy.twit.tv/sites/default/files/images/episodes/93041/hero/arena0061_h264.00_05_59_05.still001.jpg",
+              "schedule": "WE@1630",
+              "update_interval": 518400,
+              "email": "arena@twit.tv",
+              "website": "http://twit.tv/arena",
+              "colors":{
+              "top":{
+              "red":255,
+              "green":129,
+              "blue":0
+              },
+              "bottom":{
+              "red":254,
+              "green":82,
+              "blue":0
+              }
+              },
+              "urls": [
+                       {
+                       "location": "http://feeds.twit.tv/arena.xml",
+                       "type": "audio",
+                       "title": "Audio",
+                       "subtitle": "MP3",
+                       "quality": 0
+                       },
+                       {
+                       "location": "http://feeds.twit.tv/arena_video_small.xml",
+                       "type": "video",
+                       "title": "Mobile",
+                       "subtitle": "H.264",
+                       "quality": 1
+                       },
+                       {
+                       "location": "http://feeds.twit.tv/arena_video_large.xml",
+                       "type": "video",
+                       "title": "SD",
+                       "subtitle": "H.264",
+                       "quality": 2
+                       },
+                       {
+                       "location": "http://feeds.twit.tv/arena_video_hd.xml",
+                       "type": "video",
+                       "title": "HD",
+                       "subtitle": "H.264",
+                       "quality": 3
+                       }
+                       ]
+              },
+              {
+              "id": 40,
+              "title": "Tech News 2Night",
+              "schedule_title": "Tech News 2Night",
+              "short_title": "TN2N",
+              "desc": "Get your tech news and get on your way. Tech News 2Night brings you the evening’s top tech news plus a deep dive into the big stories of the day.",
+              "pubdate":"2015-09-02T00:00:00.000Z",
+              "hosts": "Megan Morrone",
+              "album_art": "http://twit.cachefly.net/coverart/tn2n/tn2n600.jpg",
+              "poster": "https://elroy.twit.tv/sites/default/files/images/episodes/91031/hero/tn2n0414b.jpg",
+              "schedule": "MO,TU,WE,TH,FR@1600",
+              "update_interval": 72000,
+              "email": "tn2n@twit.tv",
+              "website": "http://twit.tv/tn2n",
+              "colors":{
+              "top":{
+              "red":255,
+              "green":129,
+              "blue":0
+              },
+              "bottom":{
+              "red":254,
+              "green":82,
+              "blue":0
+              }
+              },
+              "urls": [
+                       {
+                       "location": "http://feeds.twit.tv/tn2n.xml",
+                       "type": "audio",
+                       "title": "Audio",
+                       "subtitle": "MP3",
+                       "quality": 0
+                       },
+                       {
+                       "location": "http://feeds.twit.tv/tn2n_video_small.xml",
+                       "type": "video",
+                       "title": "Mobile",
+                       "subtitle": "H.264",
+                       "quality": 1
+                       },
+                       {
+                       "location": "http://feeds.twit.tv/tn2n_video_large.xml",
+                       "type": "video",
+                       "title": "SD",
+                       "subtitle": "H.264",
+                       "quality": 2
+                       },
+                       {
+                       "location": "http://feeds.twit.tv/tn2n_video_hd.xml",
+                       "type": "video",
+                       "title": "HD",
+                       "subtitle": "H.264",
+                       "quality": 3
+                       }
+                       ]
               }
               ]
 }
